@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_menu">
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.firstapp.ui.cart.cart"
+        android:label="Cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/nav_rewards"
+        android:name="com.example.firstapp.ui.rewards.rewards"
+        android:label="Rewards"
+        tools:layout="@layout/fragment_rewards" />
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.example.firstapp.ui.menu.menu"
+        android:label="Menu"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/nav_ongoing"
+        android:name="com.example.firstapp.ui.ongoingorders.ongoingorders"
+        android:label="Ongoing Orders"
+        tools:layout="@layout/fragment_ongoingorders" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.firstapp.ui.history.history"
+        android:label="Historys"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.example.firstapp.ui.feedback.feedback"
+        android:label="Feedback"
+        tools:layout="@layout/fragment_feedback" />
+    <fragment
+        android:id="@+id/nav_terms"
+        android:name="com.example.firstapp.ui.terms.terms"
+        android:label="Terms and Conditions"
+        tools:layout="@layout/fragment_terms" />
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.firstapp.ui.contact.contact"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.firstapp.ui.share.share"
+        android:label="Share"
+        tools:layout="@layout/fragment_share" />
+</navigation>

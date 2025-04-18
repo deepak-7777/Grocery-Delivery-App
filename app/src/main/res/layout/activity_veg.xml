@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="-36dp"
+    tools:context=".veg">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar2"/>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="55dp"
+        android:text="Fruits &amp; Vegetables"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="33dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/backbutton"
+        android:onClick="back_button16"
+        android:textColor="@color/black"
+        tools:ignore="OnClick,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_marginTop="-0dp"
+            android:layout_marginBottom="100dp"
+            android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="147dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/image_bg"
+        android:backgroundTint="#E4E2E2"
+        android:src="@drawable/veg4" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="147dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="-121dp"
+        android:background="@drawable/image_bg"
+        android:backgroundTint="#E4E2E2"
+        android:src="@drawable/veg1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="22dp"
+        android:text="Breakfast &amp; Sauces"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-24dp"
+        android:layout_marginLeft="205dp"
+        android:text="Masala &amp; Dry Fruits"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="147dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/veg2" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="147dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="195dp"
+                android:layout_marginTop="-121dp"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/veg7" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="22dp"
+                android:text="Breakfast &amp; Sauces"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-24dp"
+                android:layout_marginLeft="205dp"
+                android:text="Masala &amp; Dry Fruits"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="147dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/veg" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="147dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="195dp"
+                android:layout_marginTop="-121dp"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/veg8" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="22dp"
+                android:text="Breakfast &amp; Sauces"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-24dp"
+                android:layout_marginLeft="205dp"
+                android:text="Masala &amp; Dry Fruits"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="147dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/veg6" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="147dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="195dp"
+                android:layout_marginTop="-121dp"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/veg4" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="22dp"
+                android:text="Breakfast &amp; Sauces"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-24dp"
+                android:layout_marginLeft="205dp"
+                android:text="Masala &amp; Dry Fruits"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="147dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/veg3" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="147dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="195dp"
+                android:layout_marginTop="-121dp"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/veg5" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="22dp"
+                android:text="Breakfast &amp; Sauces"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-24dp"
+                android:layout_marginLeft="205dp"
+                android:text="Masala &amp; Dry Fruits"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="147dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/veg7" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="147dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="195dp"
+                android:layout_marginTop="-121dp"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/veg9" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="22dp"
+                android:text="Breakfast &amp; Sauces"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-24dp"
+                android:layout_marginLeft="205dp"
+                android:text="Masala &amp; Dry Fruits"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+    </LinearLayout>
+    </ScrollView>
+  </RelativeLayout>

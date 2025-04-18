@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.menu.menu">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="17dp"
+                android:text="Grocery &amp; Kitchen"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="159dp"
+                android:layout_height="96dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:onClick="image_msg"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:src="@drawable/veg" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="159dp"
+                android:layout_height="96dp"
+                android:layout_marginLeft="186dp"
+                android:layout_marginTop="-98dp"
+                android:background="@drawable/image_bg"
+                android:onClick="image_msg1"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/meat" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="text_msg"
+                tools:ignore="TouchTargetSizeCheck"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="30dp"
+                android:text="Fruits &amp; Vegetables"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-24dp"
+                android:onClick="text_msg1"
+                tools:ignore="TouchTargetSizeCheck"
+                android:layout_marginLeft="220dp"
+                android:text="Meat &amp; Fish"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="147dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/image_bg"
+                android:onClick="image_msg2"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/redsouce" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="147dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="195dp"
+                android:layout_marginTop="-121dp"
+                android:onClick="image_msg3"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/kaju" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="22dp"
+                android:text="Breakfast &amp; Sauces"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:onClick="text_msg2"
+                tools:ignore="TouchTargetSizeCheck" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-24dp"
+                android:layout_marginLeft="205dp"
+                android:text="Masala &amp; Dry Fruits"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:onClick="text_msg3"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="17dp"
+                android:text="Beauty &amp; Personal Care"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="TouchTargetSizeCheck" />
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="158dp"
+                android:layout_height="96dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:onClick="image_msg4"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/skinc" />
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="159dp"
+                android:layout_height="96dp"
+                android:layout_marginTop="-98dp"
+                android:layout_marginLeft="186dp"
+                android:onClick="image_msg5"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/paid" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="60dp"
+                android:text="SkinCare"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:onClick="text_msg4"
+                tools:ignore="TouchTargetSizeCheck" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-24dp"
+                android:layout_marginLeft="195dp"
+                android:text="Feminine &amp; Hygience"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:onClick="text_msg5"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="147dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="15dp"
+                android:onClick="image_msg6"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/jwelry" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="147dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="195dp"
+                android:layout_marginTop="-121dp"
+                android:onClick="image_msg7"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/baby" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="35dp"
+                android:text="Jewellery &amp; More"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:onClick="text_msg6"
+                tools:ignore="TouchTargetSizeCheck" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-24dp"
+                android:layout_marginLeft="240dp"
+                android:text="BabyCare"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:onClick="text_msg7"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="17dp"
+                android:text="Household &amp; Essentials"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="159dp"
+                android:layout_height="96dp"
+                android:layout_marginLeft="15dp"
+                android:onClick="image_msg8"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/kitchen2" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="159dp"
+                android:layout_height="96dp"
+                android:layout_marginLeft="186dp"
+                android:onClick="image_msg9"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:layout_marginTop="-98dp"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/electronic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="40dp"
+                android:text="Kitchen &amp; Dining"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:onClick="text_msg8"
+                tools:ignore="TouchTargetSizeCheck" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-24dp"
+                android:layout_marginLeft="206dp"
+                android:text="Electronics &amp; More"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:onClick="text_msg9"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="147dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:onClick="image_msg10"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/sports" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="147dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="195dp"
+                android:onClick="image_msg11"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:layout_marginTop="-121dp"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/book2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="47dp"
+                android:text="Toys &amp; Sports"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:onClick="text_msg10"
+                tools:ignore="TouchTargetSizeCheck" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-24dp"
+                android:layout_marginLeft="206dp"
+                android:text="Stationery &amp; Books"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:onClick="text_msg11"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="17dp"
+                android:text="Snacks &amp; Drinks"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="TouchTargetSizeCheck" />
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="159dp"
+                android:layout_height="96dp"
+                android:onClick="image_msg12"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/icecream" />
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="159dp"
+                android:layout_height="96dp"
+                android:layout_marginTop="-98dp"
+                android:layout_marginLeft="186dp"
+                android:onClick="image_msg13"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/snacks" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="27dp"
+                android:text="Ice Cerams &amp; More"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:onClick="text_msg12"
+                tools:ignore="TouchTargetSizeCheck" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-24dp"
+                android:layout_marginLeft="220dp"
+                android:text="Frozen Food"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:onClick="text_msg13"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="147dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="20dp"
+                android:onClick="image_msg14"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/namkeen" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="147dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="198dp"
+                android:onClick="image_msg15"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:layout_marginTop="-121dp"
+                android:background="@drawable/image_bg"
+                android:backgroundTint="#E4E2E2"
+                android:src="@drawable/colddrinks" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="26dp"
+                android:text="Biscuits &amp; Namkeen"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:onClick="text_msg14"
+                tools:ignore="TouchTargetSizeCheck" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-24dp"
+                android:layout_marginLeft="198dp"
+                android:text="Cold Drinks &amp; Juices"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:onClick="text_msg15"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

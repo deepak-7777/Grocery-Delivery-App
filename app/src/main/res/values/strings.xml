@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">GlobalXwar</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="text1">
+       The following modes of payment are available on our app: \n
+        1.  The available modes of payment on the app include several convenient options. \n
+        2.  Customers can choose Cash on Delivery (COD), but only after their first order is placed through online payment.\n
+        3.  Payment through Visa, Mastercard, and Rupay credit and debit cards is supported.\n
+        4.  The app also accepts CRED Pay as a payment option.\n
+        5.  Digital wallets such as Freecharge, Mobikwik, and PayZapp can also be used.\n
+        6.  Additionally, users can opt for Pay Later services like SIMPL and LazyPay.\n
+        7.  If the order needs to be left at the security gate, customers should continue to pay online using wallets, UPI, net banking, or credit/debit cards.\n
+    </string>
+    <string name="link"><a href="https://www.instagram.com/invites/contact/?igsh=vmx1h9ve3srx&amp;utm_content=tcrtpve">Share Now</a></string>
+    <string name="terms1">
+         Payment Methods:   The app specifies accepted payment (credit/debit cards, online wallets, etc). \n
+        Refund Policy:  The app outlines the  process for refunds, including reasons for eligibility and timeframes. \n
+        Cancellation Fees:   If a user cancels an order, the app may charge a cancellation fee. \n
+        Delivery Charges:   The app specifies delivery fees and surge pricing (if applicable). \n
+    </string>
+
+</resources>

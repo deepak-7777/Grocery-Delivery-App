@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:layout_marginTop="34dp"
+    tools:context=".settings">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Profile"
+        android:textColor="@color/black"
+        android:layout_marginTop="-5dp"
+        android:textSize="22dp" />
+    <TextView
+        android:id="@+id/text22"
+        android:layout_width="33dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/backbutton"
+        android:onClick="back_button18"
+        android:textColor="@color/black"
+        tools:ignore="OnClick,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="198dp"
+        android:layout_height="144dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/profilee" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textColor="#5B486D"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="Name"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/feed"
+        android:hint="Enter your name"
+        android:backgroundTint="#D7D1DC"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="17sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textColor="#5B486D"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="Mobile Number"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/feed"
+        android:hint="Enter your Number"
+        android:backgroundTint="#D7D1DC"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="17sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textColor="#5B486D"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="Email Address"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/feed"
+        android:hint="Enter your email"
+        android:backgroundTint="#D7D1DC"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/feed"
+        android:backgroundTint="#B48AD3"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:onClick="submit"
+        android:text="Submit"
+        android:textSize="22sp"
+        tools:ignore="OnClick" />
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/globalxwar"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/globalxwar"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirstApp"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".settings"
+            android:exported="false" />
+        <activity
+            android:name=".contactD"
+            android:exported="false" />
+        <activity
+            android:name=".contactC"
+            android:exported="false" />
+        <activity
+            android:name=".contactB"
+            android:exported="false" />
+        <activity
+            android:name=".contactA"
+            android:exported="false" />
+        <activity
+            android:name=".feedsubmit"
+            android:exported="false" />
+        <activity
+            android:name=".colddrinks"
+            android:exported="false" />
+        <activity
+            android:name=".biscuits"
+            android:exported="false" />
+        <activity
+            android:name=".frozen"
+            android:exported="false" />
+        <activity
+            android:name=".icecream"
+            android:exported="false" />
+        <activity
+            android:name=".stationery"
+            android:exported="false" />
+        <activity
+            android:name=".toys"
+            android:exported="false" />
+        <activity
+            android:name=".electronics"
+            android:exported="false" />
+        <activity
+            android:name=".kitchen"
+            android:exported="false" />
+        <activity
+            android:name=".babycare"
+            android:exported="false" />
+        <activity
+            android:name=".jewellery"
+            android:exported="false" />
+        <activity
+            android:name=".feminine"
+            android:exported="false" />
+        <activity
+            android:name=".skincare"
+            android:exported="false" />
+        <activity
+            android:name=".masala"
+            android:exported="false" />
+        <activity
+            android:name=".breakfast"
+            android:exported="false" />
+        <activity
+            android:name=".meat"
+            android:exported="false" />
+        <activity
+            android:name=".veg"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.FirstApp.NoActionBar" />
+        <activity
+            android:name=".forgotpassword"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".SignUpActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".LoginActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".MainActivity" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".welcome"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+<!--            android:exported="true"-->
+        <activity android:name=".SignUpActivity" />
+    </application>
+
+</manifest>

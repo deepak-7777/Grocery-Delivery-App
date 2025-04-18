@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.feedback.feedback">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="How is your first impression of the product ?" />
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#8930B3"
+        android:numStars="5" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="35dp"
+        android:paddingTop="130dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="What would you like to explore next ?" />
+
+    <MultiAutoCompleteTextView
+        android:layout_width="276dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/feed"
+        android:hint="Please write your feedback  "
+        android:lines="4"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#6A6464" />
+
+    <Button
+        android:id="@+id/feed"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="265dp"
+        android:background="@drawable/feed"
+        android:text="Submit"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</FrameLayout>

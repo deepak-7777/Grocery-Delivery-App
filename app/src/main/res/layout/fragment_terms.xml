@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.terms.terms">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:background="@color/white"
+                android:text="This document is an electronic record in terms of the Information Technology Act, 2000 and rules thereunder as applicable and the amended provisions pertaining to electronic records in various statutes as amended by the Information Technology Act, 2000. This document is published in accordance with the provisions of Rule 3(1) of the Information Technology (Guidelines for Intermediaries and Digital Media Ethics Code) Rules, 2021 that require publishing the rules and regulations, privacy policy."
+                android:textColor="#434141"
+                android:textSize="17sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:paddingTop="15dp"
+                android:text="1. Account Registration and Eligiblity"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:background="@color/white"
+                android:paddingRight="10dp"
+                android:text="Persons who are 'incompetent to contract' within the meaning of the Indian Contract Act, 1872 including minors, un-discharged insolvents etc. are not eligible to use the Platform. Only individuals who are 18 years of age or older may use the Platform and avail the Services. If you are under 18 years of age and you wish to download, install, access or use the Platform, your parents or legal guardian must acknowledge and agree to the Terms of Use and This App Policies."
+                android:textColor="#434141"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="24sp"
+                android:paddingLeft="5dp"
+                android:paddingTop="15dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:text="2. Payment and Refunds:" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:paddingRight="10dp"
+                android:background="@color/white"
+                android:text="@string/terms1"
+                android:textColor="#434141"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

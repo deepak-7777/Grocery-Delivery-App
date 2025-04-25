@@ -216,20 +216,31 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="17dp"
         android:background="#3C3B3B" />
-    <TextView
-        android:id="@+id/signout"
-        android:layout_width="match_parent"
+<!--    <TextView-->
+<!--        android:id="@+id/btn_signOut"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="120dp"-->
+<!--        android:layout_marginTop="55dp"-->
+<!--        android:layout_marginRight="120dp"-->
+<!--        android:background="@drawable/feed"-->
+<!--        android:backgroundTint="#282628"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="12dp"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:text="Sign out"-->
+<!--        android:textSize="22sp" />-->
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="120dp"
-        android:layout_marginTop="55dp"
-        android:layout_marginRight="120dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/feed"
-        android:backgroundTint="#282628"
-        android:gravity="center"
-        android:padding="12dp"
-        android:textColor="@color/white"
-        android:onClick="signoutt"
-        tools:ignore="OnClick"
-        android:text="Sign out"
-        android:textSize="22sp" />
+        android:backgroundTint="#121112"
+        android:textSize="20dp"
+        android:text="Logout" />
+
+
 </LinearLayout>

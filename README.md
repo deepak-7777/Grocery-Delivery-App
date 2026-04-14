@@ -30,12 +30,6 @@ This project demonstrates a complete **end-to-end grocery shopping workflow**, i
 
 ---
 
-## 📸 Screenshots
-
-*(Add your app screenshots here for better presentation)*
-
----
-
 ## ⚙️ Getting Started
 
 1. Clone the repository

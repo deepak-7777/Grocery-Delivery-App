@@ -17,7 +17,7 @@ This project demonstrates a complete **end-to-end grocery shopping workflow**, i
 * 🔍 Detailed product view
 * 🛒 Add to Cart functionality
 * ⚡ Smooth navigation and user interaction
-* 📱 Responsive and user-friendly design
+* 📱 Responsive and user-friendly designs
 
 ---
 

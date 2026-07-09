@@ -28,7 +28,7 @@ This project demonstrates a complete **end-to-end grocery shopping workflow**, i
 * **IDE:** Android Studio
 * **Architecture:** Activity-based structure
 
----
+--- 
 
 ## ⚙️ Getting Started
 

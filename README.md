@@ -10,7 +10,7 @@ This project demonstrates a complete **end-to-end grocery shopping workflow**, i
  
 --- 
 
-## ✨ Key Features
+## ✨ Key Features 
 
 * 🛍️ Browse grocery products with clean UI
 * 📂 Category-wise product filtering

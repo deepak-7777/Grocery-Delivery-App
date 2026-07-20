@@ -3,7 +3,7 @@
 A **modern Android-based Grocery Delivery Application** inspired by platforms like Zepto, designed to provide a smooth and intuitive online shopping experience.
 
 ---
-
+ 
 ## 🚀 Overview
 
 This project demonstrates a complete **end-to-end grocery shopping workflow**, including product browsing, category filtering, and cart management. It showcases my ability to build **real-world scalable mobile applications** with clean UI and structured architecture.
